@@ -37,3 +37,9 @@ jobs:
           branch: gh-pages
           folder: dist
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the Readme
+      
+        
+      - name: Run test
+        run: npm run lint:ts
+      - name: Run test
+        run: npm run lint:css
