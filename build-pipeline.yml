@@ -39,7 +39,7 @@ jobs:
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the Readme
       
         
-      - name: Run test
+      - name: Run typescript lint and format check
         run: npm run lint:ts
-      - name: Run test
+      - name: Run styles lint and format check
         run: npm run lint:css
